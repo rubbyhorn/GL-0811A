@@ -1,2 +1,2 @@
 # GL-0811A
-Dimmer
+Dimmer reverse engineering

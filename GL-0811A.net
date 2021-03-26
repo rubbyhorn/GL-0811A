@@ -1,0 +1,44 @@
+(export (version D)
+  (design
+    (source C:\Users\user\Documents\KiCadProjects\GL-0811A\GL-0811A.sch)
+    (date "26.03.2021 11:22:41")
+    (tool "Eeschema (5.1.9)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source GL-0811A.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref LD1)
+      (value Laserdiode_1A3C)
+      (footprint Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.3x1.3mm)
+      (datasheet ~)
+      (libsource (lib Device) (part Laserdiode_1A3C) (description "Laser diode, cathode on pin 3, anode on pin 1"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 605D9947)))
+  (libparts
+    (libpart (lib Device) (part Laserdiode_1A3C)
+      (description "Laser diode, cathode on pin 3, anode on pin 1")
+      (docs ~)
+      (footprints
+        (fp *LaserDiode*))
+      (fields
+        (field (name Reference) LD)
+        (field (name Value) Laserdiode_1A3C))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 3) (name K) (type passive)))))
+  (libraries
+    (library (logical Device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")))
+  (nets
+    (net (code 1) (name "Net-(LD1-Pad1)")
+      (node (ref LD1) (pin 1)))
+    (net (code 2) (name "Net-(LD1-Pad3)")
+      (node (ref LD1) (pin 3)))))

@@ -1,0 +1,12 @@
+(module Fuse2 (layer F.Cu) (tedit 605FAC4C)
+  (fp_text reference REF** (at 0 -5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Fuse2 (at 0 -6) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_arc (start -1.5 0) (end 0 0) (angle -180) (layer F.SilkS) (width 0.12))
+  (fp_arc (start 1.5 0) (end 0 0) (angle -180) (layer F.SilkS) (width 0.12))
+  (pad 2 thru_hole circle (at 3 0) (size 2 2) (drill 0.8) (layers *.Mask B.Cu))
+  (pad 1 thru_hole circle (at -3 0) (size 2 2) (drill 0.8) (layers *.Mask B.Cu))
+)
